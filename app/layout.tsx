@@ -13,7 +13,7 @@ export default function RootLayout({
 	children: React.ReactNode;
 }) {
 	return (
-		<html lang="pt-BR" className={outfit.className}>
+		<html lang="pt-BR" className={`${outfit.className} scroll-smooth`}>
 			<head />
 			<body>{children}</body>
 		</html>

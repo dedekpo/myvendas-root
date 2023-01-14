@@ -36,7 +36,7 @@ export default function MainHero() {
 							</svg>
 						</button>
 					</Link>
-					<Link href="#saiba-mais">
+					<a href="#saiba-mais">
 						<button className="flex justify-center w-full gap-1 bg-gray-200 hover:bg-gray-300 text-gray-900 py-3 px-5 rounded">
 							<span className="text-lg">Saiba mais</span>
 							<svg
@@ -54,7 +54,7 @@ export default function MainHero() {
 								/>
 							</svg>
 						</button>
-					</Link>
+					</a>
 				</div>
 			</div>
 			<div className="w-full h-[34rem] max-w-3xl mx-auto mt-20 text-center relative">

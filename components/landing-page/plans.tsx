@@ -94,7 +94,7 @@ function GoldPlan() {
 			<Feature feature={"Time de implantação"} />
 			<Feature feature={"Atendimento individual"} />
 			<Link
-				href="https://app.myvendas.com"
+				href="https://api.whatsapp.com/send?phone=5531983399692&text=Gostaria de saber sobre o plano GOLD do MyVendas"
 				target="_blank"
 				className="mt-auto"
 			>
