@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function MainHero() {
 	return (
 		<div className="px-8 py-24 mx-auto  from-white to-gray-200">
-			<div className="w-full md:w-11/12 xl:w-9/12 mx-auto md:text-center">
+			<div className="w-full md:max-w-4xl mx-auto md:text-center">
 				<h1 className="mb-6 text-5xl md:text-7xl font-bold leading-none md:tracking-tight text-gray-900">
 					A sua plataforma ideal para <br />
 					<strong className="block text-transparent lg:inline w-full bg-clip-text bg-gradient-to-r from-green-600 to-purple-500 font-extrabold">
@@ -13,7 +13,7 @@ export default function MainHero() {
 				</h1>
 				<h2 className="px-0 lg:px-24 mb-6 text-lg md:text-xl text-gray-600">
 					Somos o MyVendas, uma plataforma que auxília o seu negócio a
-					crescer utilizando gestão de vendas, catálogo digital e
+					crescer utilizando gestão de vendas, loja digital e
 					relatórios.
 				</h2>
 				<div className="flex flex-col md:flex-row mb-4 md:mb-8 gap-2 md:justify-center">

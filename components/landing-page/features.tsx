@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Features() {
 	return (
 		<div
-			className="w-5/6 md:w-4/6 mx-auto overflow-hidden md:overflow-auto"
+			className="w-5/6 md:max-w-3xl mx-auto overflow-hidden md:overflow-auto"
 			id="saiba-mais"
 		>
 			{/* Feature header */}
@@ -61,7 +61,7 @@ function Feature2() {
 		<div className="flex flex-col md:flex-row align-middle gap-10 ">
 			<Image
 				src="/catalogo.png"
-				alt="Demonstração do Catálogo MyVendas em um Smartphone"
+				alt="Demonstração da loja digital MyVendas em um Smartphone"
 				width={200}
 				height={250}
 				quality={75}
@@ -69,11 +69,11 @@ function Feature2() {
 			/>
 			<div className="my-auto">
 				<span className="font-bold text-3xl w-full block">
-					Catálogo Digital
+					Loja Digital
 				</span>
 				<span className="text-gray-600 text-xl">
 					Além de você gerenciar suas vendas de um modo eficaz, você
-					também cria o seu Catálogo Digital. Com ele você levará o{" "}
+					também cria a sua Loja Digital. Com ele você levará o{" "}
 					<mark className="bg-green-200 text-gray-700 shadow-md px-1">
 						seu negócio ao mundo online
 					</mark>
@@ -87,7 +87,7 @@ function Feature2() {
 			</div>
 			<Image
 				src="/catalogo.png"
-				alt="Demonstração do Catálogo MyVendas em um Smartphone"
+				alt="Demonstração da Loja Digital MyVendas em um Smartphone"
 				width={200}
 				height={250}
 				quality={75}

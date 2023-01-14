@@ -8,7 +8,10 @@ export default function FAQ() {
 			<span className="text-2xl font-normal mt-24 mb-5 text-center block">
 				Perguntas frequentes
 			</span>
-			<Accordion.Root type="single" className="w-5/6 md:w-5xl mx-auto">
+			<Accordion.Root
+				type="single"
+				className="w-5/6 md:max-w-5xl mx-auto"
+			>
 				<Question
 					question={"Por quantos dias eu posso testar a plataforma?"}
 					answer={
@@ -30,11 +33,9 @@ export default function FAQ() {
 					}
 				/>
 				<Question
-					question={
-						"Como recebo os meus pedidos pelo catálogo digital?"
-					}
+					question={"Como recebo os meus pedidos pela loja digital?"}
 					answer={
-						"O cliente irá entrar no seu catálogo, colocar os produtos no carrinho e concluir o pedido. Ele pode fazer o pedido direto no seu Whatsapp ou realizar o pagamento online. Caso a venda seja online, você receberá o pedido pelo aplicativo MyVendas."
+						"O cliente irá entrar na sua loja, colocar os produtos no carrinho e concluir o pedido. Ele pode fazer o pedido direto no seu Whatsapp ou realizar o pagamento online. Caso a venda seja online, você receberá o pedido pelo aplicativo MyVendas."
 					}
 				/>
 				<Question

@@ -28,7 +28,7 @@ function FreePlan() {
 			<Feature feature={"1 usuário"} />
 			<Feature feature={"Produtos ilimitados"} />
 			<Feature feature={"Clientes ilimitados"} />
-			<Feature feature={"Catálogo Digital"} />
+			<Feature feature={"Loja Digital"} />
 			<Feature feature={"Ponto de Vendas (PDV)"} />
 			<Feature feature={"1 foto por produto"} />
 			<Feature feature={"Multi plataforma"} />
