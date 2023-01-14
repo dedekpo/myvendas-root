@@ -51,7 +51,7 @@ function ProPlan() {
 		<div className="flex flex-col h-[500px] w-[350px] bg-gray-100 p-10 text-gray-900 rounded-md border-2">
 			<span className="text-xl block">Plano PRO</span>
 			<span className="mt-5 text-5xl font-bold block">R$49,00</span>
-			<span className="text-gray-500 mt-2 block">por mês</span>
+			<span className="text-gray-600 mt-2 block">por mês</span>
 			<div className="relative flex py-5 items-center">
 				<div className="flex-grow border-t border-gray-300" />
 			</div>
