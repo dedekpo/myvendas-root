@@ -57,16 +57,18 @@ export default function MainHero() {
 					</a>
 				</div>
 			</div>
-			<div className="w-full h-[60vw] md:h-[34rem] max-w-3xl mx-auto mt-20 text-center relative text-gray-100 font-medium">
-				<Image
-					src="/smartphone-notebook.png"
-					alt="Smartphone e notebook mostrando o aplicativo MyVendas"
-					fill
-					quality={50}
-					className="object-cover"
-				/>
+			<div className="w-full max-w-3xl mx-auto mt-20 text-center text-gray-100 font-medium relative">
+				<div className="w-full h-[65vw] md:h-[34rem] relative mb-2">
+					<Image
+						src="/smartphone-notebook.png"
+						alt="Smartphone e notebook mostrando o aplicativo MyVendas"
+						fill
+						quality={50}
+						className="object-cover"
+					/>
+				</div>
 				<div
-					className={`flex relative md:absolute items-center gap-2 mb-2 p-3 rounded-md shadow-lg bg-red-500 `}
+					className={`flex relative md:absolute items-center gap-2 mb-2 p-3 rounded-md shadow-lg bg-red-500 top-0`}
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -86,7 +88,7 @@ export default function MainHero() {
 					<h2 className="">Praticidade nas suas vendas</h2>
 				</div>
 				<div
-					className={`flex relative md:absolute items-center gap-2 mb-2 p-3 rounded-md shadow-lg bg-green-500 right-0`}
+					className={`flex relative md:absolute items-center gap-2 mb-2 p-3 rounded-md shadow-lg bg-green-500 top-0 right-0`}
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
