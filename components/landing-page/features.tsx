@@ -73,7 +73,7 @@ function Feature2() {
 				</span>
 				<span className="text-gray-600 text-xl">
 					Além de você gerenciar suas vendas de um modo eficaz, você
-					também cria a sua Loja Digital. Com ele você levará o{" "}
+					também cria a sua Loja Digital. Com ela você levará o{" "}
 					<mark className="bg-green-200 text-gray-700 shadow-md px-1">
 						seu negócio ao mundo online
 					</mark>
