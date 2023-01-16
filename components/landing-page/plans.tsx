@@ -25,13 +25,13 @@ function FreePlan() {
 			<div className="relative flex py-5 items-center">
 				<div className="flex-grow border-t border-gray-300" />
 			</div>
-			<Feature feature={"1 usuário"} />
-			<Feature feature={"Produtos ilimitados"} />
-			<Feature feature={"Clientes ilimitados"} />
 			<Feature feature={"Loja Digital"} />
 			<Feature feature={"Ponto de Vendas (PDV)"} />
-			<Feature feature={"1 foto por produto"} />
-			<Feature feature={"Multi plataforma"} />
+			<Feature feature={"Carteira de Clientes"} />
+			<Feature feature={"1 Usuário"} />
+			<Feature feature={"10 Produtos"} />
+			<Feature feature={"1 Foto por Produto"} />
+			<Feature feature={"Multi Plataforma"} />
 			<Feature feature={"10% de taxa por venda online"} />
 			<Link
 				href="https://app.myvendas.com"
@@ -56,9 +56,10 @@ function ProPlan() {
 				<div className="flex-grow border-t border-gray-300" />
 			</div>
 			<Feature feature={"Tudo do plano gratuito +"} />
-			<Feature feature={"Usuários ilimitados"} />
-			<Feature feature={"Controle de estoque"} />
-			<Feature feature={"7 fotos por produto"} />
+			<Feature feature={"Usuários Ilimitados"} />
+			<Feature feature={"Produtos Ilimitados"} />
+			<Feature feature={"Controle de Estoque"} />
+			<Feature feature={"7 Fotos por Produto"} />
 			<Feature feature={"Estatísticas e Relatórios"} />
 			<Feature feature={"4% de taxa por venda online"} />
 			<Link
