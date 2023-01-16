@@ -1,6 +1,7 @@
 import "./globals.css";
 
 import { Outfit } from "@next/font/google";
+import { Analytics } from "@/components/analytics";
 
 const outfit = Outfit({
 	subsets: ["latin"],
@@ -15,7 +16,10 @@ export default function RootLayout({
 	return (
 		<html lang="pt-BR" className={`${outfit.className} scroll-smooth`}>
 			<head />
-			<body>{children}</body>
+			<body>
+				{children}
+				<Analytics />
+			</body>
 		</html>
 	);
 }
