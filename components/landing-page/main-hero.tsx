@@ -6,7 +6,7 @@ export default function MainHero() {
 		<div className="px-8 py-24 mx-auto  from-white to-gray-200">
 			<div className="w-full md:max-w-4xl mx-auto md:text-center">
 				<h1 className="mb-6 text-5xl md:text-7xl font-bold leading-none md:tracking-tight text-gray-900">
-					A sua plataforma ideal para <br />
+					A plataforma perfeita para <br />
 					<strong className="block text-transparent lg:inline w-full bg-clip-text bg-gradient-to-r from-green-600 to-purple-500 font-extrabold">
 						GESTÃO DE VENDAS.
 					</strong>
