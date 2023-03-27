@@ -33,7 +33,9 @@ export default function FAQ() {
 					}
 				/>
 				<Question
-					question={"Como recebo os meus pedidos pela loja digital?"}
+					question={
+						"Como recebo os meus pedidos pelo catálogo digital?"
+					}
 					answer={
 						"O cliente irá entrar na sua loja, colocar os produtos no carrinho e concluir o pedido. Ele pode fazer o pedido direto no seu Whatsapp ou realizar o pagamento online. Caso a venda seja online, você receberá o pedido pelo aplicativo MyVendas."
 					}
