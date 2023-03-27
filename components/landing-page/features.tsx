@@ -69,7 +69,7 @@ function Feature2() {
 			/>
 			<div className="my-auto">
 				<span className="font-bold text-3xl w-full block">
-					Loja Digital
+					Catálogo Digital
 				</span>
 				<span className="text-gray-600 text-xl">
 					Além de você gerenciar suas vendas de um modo eficaz, você

@@ -15,7 +15,7 @@ export default function FAQ() {
 				<Question
 					question={"Por quantos dias eu posso testar a plataforma?"}
 					answer={
-						"A plataforma é totalmente gratuita. Mas você pode testar o plano PRO por 7 dias gratuitamente a partir do momento que você cadastrar a sua empresa, sem a necessidade de preenchimento de dados do seu cartão de crédito."
+						"Você pode testar o plano PRO por 7 dias gratuitamente a partir do momento que você cadastrar a sua empresa, sem a necessidade de preenchimento de dados do seu cartão de crédito."
 					}
 				/>
 				<Question

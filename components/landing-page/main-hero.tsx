@@ -13,7 +13,7 @@ export default function MainHero() {
 				</h1>
 				<h2 className="px-0 lg:px-24 mb-6 text-lg md:text-xl text-gray-600">
 					Somos o MyVendas, uma plataforma que auxília o seu negócio a
-					crescer utilizando gestão de vendas, loja digital e
+					crescer utilizando gestão de vendas, catálogo digital e
 					relatórios.
 				</h2>
 				<div className="flex flex-col md:flex-row mb-4 md:mb-8 gap-2 md:justify-center">
@@ -125,7 +125,7 @@ export default function MainHero() {
 						/>
 					</svg>
 
-					<h2>Crie sua loja digital e venda mais</h2>
+					<h2>Crie seu catálogo digital e venda mais</h2>
 				</div>
 				<div
 					className={`flex file:relative md:absolute items-center gap-2 mb-2 p-3 rounded-md shadow-lg bg-purple-500 bottom-0 right-0`}

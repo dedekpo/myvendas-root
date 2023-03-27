@@ -9,7 +9,7 @@ export default function Plans() {
 				bolso!
 			</span>
 			<div className="items-center flex flex-col md:flex-row gap-7 justify-center">
-				<FreePlan />
+				{/* <FreePlan /> */}
 				<ProPlan />
 				<GoldPlan />
 			</div>
@@ -55,11 +55,11 @@ function ProPlan() {
 			<div className="relative flex py-5 items-center">
 				<div className="flex-grow border-t border-gray-300" />
 			</div>
-			<Feature feature={"Tudo do plano gratuito +"} />
-			<Feature feature={"Usuários Ilimitados"} />
+			<Feature feature={"Catálogo Digital"} />
+			<Feature feature={"Ponto de Vendas (PDV)"} />
+			<Feature feature={"Carteira de Clientes"} />
 			<Feature feature={"Produtos Ilimitados"} />
-			<Feature feature={"Controle de Estoque"} />
-			<Feature feature={"7 Fotos por Produto"} />
+			<Feature feature={"Equipe de Vendedores"} />
 			<Feature feature={"Estatísticas e Relatórios"} />
 			<Feature feature={"4% de taxa por venda online"} />
 			<Link
@@ -79,9 +79,9 @@ function GoldPlan() {
 	return (
 		<div className="flex flex-col h-[500px] w-[350px] bg-white p-10 text-gray-900 rounded-md border-2 border-yellow-200">
 			<span className="text-xl block">Plano GOLD</span>
-			<span className="mt-5 text-5xl font-bold block">R$1290,00</span>
+			<span className="mt-5 text-5xl font-bold block">R$125,00</span>
 			<div className="flex gap-3 mt-2">
-				<span className="text-gray-500">por ano</span>
+				<span className="text-gray-500">por mês</span>
 				<div className="bg-green-800 px-2 rounded-lg">
 					<span className="text-gray-100">Somente plano anual</span>
 				</div>
