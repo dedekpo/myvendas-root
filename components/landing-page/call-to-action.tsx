@@ -14,7 +14,7 @@ export default function CallToAction({ slr }: { slr: string }) {
 					</span>
 				</div>
 				<Link
-					href={`https://app.myvendas.com${slr ? `?srl=${slr}` : ""}`}
+					href={`https://app.myvendas.com${slr ? `?slr=${slr}` : ""}`}
 					target="_blank"
 				>
 					<button className="bg-gray-100 hover:bg-gray-200 text-gray-800 rounded-md p-4 shadow-lg font-bold">

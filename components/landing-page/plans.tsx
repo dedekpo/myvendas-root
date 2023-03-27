@@ -63,7 +63,7 @@ function ProPlan({ slr }: { slr: string }) {
 			<Feature feature={"Estatísticas e Relatórios"} />
 			<Feature feature={"4% de taxa por venda online"} />
 			<Link
-				href={`https://app.myvendas.com${slr ? `?srl=${slr}` : ""}`}
+				href={`https://app.myvendas.com${slr ? `?slr=${slr}` : ""}`}
 				target="_blank"
 				className="mt-auto"
 			>

@@ -19,7 +19,7 @@ export default function MainHero({ slr }: { slr: string }) {
 				<div className="flex flex-col md:flex-row mb-4 md:mb-8 gap-2 md:justify-center">
 					<Link
 						href={`https://app.myvendas.com${
-							slr ? `?srl=${slr}` : ""
+							slr ? `?slr=${slr}` : ""
 						}`}
 						target="_blank"
 					>

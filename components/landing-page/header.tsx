@@ -17,7 +17,7 @@ export default function Header({ slr }: { slr: string }) {
 					</Link>
 					<Link
 						href={`https://app.myvendas.com${
-							slr ? `?srl=${slr}` : ""
+							slr ? `?slr=${slr}` : ""
 						}`}
 						target="_blank"
 					>
