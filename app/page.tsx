@@ -1,3 +1,5 @@
+export const dynamic = "force-dynamic";
+
 import CallToAction from "@/components/landing-page/call-to-action";
 import FAQ from "@/components/landing-page/faq";
 import Features from "@/components/landing-page/features";
