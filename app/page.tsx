@@ -11,7 +11,7 @@ export default function Home({
 }: {
 	searchParams?: { [key: string]: string | string[] | undefined };
 }) {
-	const slr = String(searchParams?.slr || "");
+	const slr = String(searchParams?.slr);
 	return (
 		<>
 			<Header slr={slr} />
