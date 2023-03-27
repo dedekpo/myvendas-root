@@ -6,16 +6,21 @@ import Header from "@/components/landing-page/header";
 import MainHero from "@/components/landing-page/main-hero";
 import Plans from "@/components/landing-page/plans";
 
-export default function Home() {
+export default function Home({
+	searchParams,
+}: {
+	searchParams?: { [key: string]: string | string[] | undefined };
+}) {
+	const slr = String(searchParams?.slr || "");
 	return (
 		<>
-			<Header />
+			<Header slr={slr} />
 			<main>
-				<MainHero />
+				<MainHero slr={slr} />
 				<Features />
-				<Plans />
+				<Plans slr={slr} />
 				<FAQ />
-				<CallToAction />
+				<CallToAction slr={slr} />
 			</main>
 			<Footer />
 		</>

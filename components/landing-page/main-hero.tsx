@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-export default function MainHero() {
+export default function MainHero({ slr }: { slr: string }) {
 	return (
 		<div className="px-8 py-24 mx-auto  from-white to-gray-200">
 			<div className="w-full md:max-w-4xl mx-auto md:text-center">
@@ -17,7 +17,12 @@ export default function MainHero() {
 					relatórios.
 				</h2>
 				<div className="flex flex-col md:flex-row mb-4 md:mb-8 gap-2 md:justify-center">
-					<Link href="https://app.myvendas.com" target="_blank">
+					<Link
+						href={`https://app.myvendas.com${
+							slr ? `?srl=${slr}` : ""
+						}`}
+						target="_blank"
+					>
 						<button className="flex justify-center w-full gap-1 bg-green-700 hover:bg-green-800 text-white font-semibold py-3 px-5 rounded">
 							<span className="text-lg">Cadastre-se grátis</span>
 							<svg

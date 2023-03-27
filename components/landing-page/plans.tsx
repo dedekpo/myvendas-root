@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Plans() {
+export default function Plans({ slr }: { slr: string }) {
 	return (
 		<div className="max-w-5xl mx-auto mt-24">
 			<span className="text-3xl font-bold text-center block">Planos</span>
@@ -10,43 +10,43 @@ export default function Plans() {
 			</span>
 			<div className="items-center flex flex-col md:flex-row gap-7 justify-center">
 				{/* <FreePlan /> */}
-				<ProPlan />
-				<GoldPlan />
+				<ProPlan slr={slr} />
+				<GoldPlan slr={slr} />
 			</div>
 		</div>
 	);
 }
 
-function FreePlan() {
-	return (
-		<div className="flex flex-col h-[500px] w-[350px] bg-green-700 p-10 text-gray-100 rounded-md">
-			<span className="text-xl block">Plano gratuito</span>
-			<span className="mt-5 text-5xl font-bold block">Grátis</span>
-			<div className="relative flex py-5 items-center">
-				<div className="flex-grow border-t border-gray-300" />
-			</div>
-			<Feature feature={"Loja Digital"} />
-			<Feature feature={"Ponto de Vendas (PDV)"} />
-			<Feature feature={"Carteira de Clientes"} />
-			<Feature feature={"1 Usuário"} />
-			<Feature feature={"10 Produtos"} />
-			<Feature feature={"1 Foto por Produto"} />
-			<Feature feature={"Multi Plataforma"} />
-			<Feature feature={"10% de taxa por venda online"} />
-			<Link
-				href="https://app.myvendas.com"
-				target="_blank"
-				className="mt-auto"
-			>
-				<button className="bg-gray-900 hover:bg-gray-700 text-gray-100 w-full py-2 rounded-md font-semibold">
-					Cadastre-se grátis
-				</button>
-			</Link>
-		</div>
-	);
-}
+// function FreePlan() {
+// 	return (
+// 		<div className="flex flex-col h-[500px] w-[350px] bg-green-700 p-10 text-gray-100 rounded-md">
+// 			<span className="text-xl block">Plano gratuito</span>
+// 			<span className="mt-5 text-5xl font-bold block">Grátis</span>
+// 			<div className="relative flex py-5 items-center">
+// 				<div className="flex-grow border-t border-gray-300" />
+// 			</div>
+// 			<Feature feature={"Loja Digital"} />
+// 			<Feature feature={"Ponto de Vendas (PDV)"} />
+// 			<Feature feature={"Carteira de Clientes"} />
+// 			<Feature feature={"1 Usuário"} />
+// 			<Feature feature={"10 Produtos"} />
+// 			<Feature feature={"1 Foto por Produto"} />
+// 			<Feature feature={"Multi Plataforma"} />
+// 			<Feature feature={"10% de taxa por venda online"} />
+// 			<Link
+// 				href="https://app.myvendas.com"
+// 				target="_blank"
+// 				className="mt-auto"
+// 			>
+// 				<button className="bg-gray-900 hover:bg-gray-700 text-gray-100 w-full py-2 rounded-md font-semibold">
+// 					Cadastre-se grátis
+// 				</button>
+// 			</Link>
+// 		</div>
+// 	);
+// }
 
-function ProPlan() {
+function ProPlan({ slr }: { slr: string }) {
 	return (
 		<div className="flex flex-col h-[500px] w-[350px] bg-gray-100 p-10 text-gray-900 rounded-md border-2">
 			<span className="text-xl block">Plano PRO</span>
@@ -63,7 +63,7 @@ function ProPlan() {
 			<Feature feature={"Estatísticas e Relatórios"} />
 			<Feature feature={"4% de taxa por venda online"} />
 			<Link
-				href="https://app.myvendas.com"
+				href={`https://app.myvendas.com${slr ? `?srl=${slr}` : ""}`}
 				target="_blank"
 				className="mt-auto"
 			>
@@ -75,7 +75,7 @@ function ProPlan() {
 	);
 }
 
-function GoldPlan() {
+function GoldPlan({ slr }: { slr: string }) {
 	return (
 		<div className="flex flex-col h-[500px] w-[350px] bg-white p-10 text-gray-900 rounded-md border-2 border-yellow-200">
 			<span className="text-xl block">Plano GOLD</span>
@@ -95,7 +95,9 @@ function GoldPlan() {
 			<Feature feature={"Time de implantação"} />
 			<Feature feature={"Atendimento individual"} />
 			<Link
-				href="https://api.whatsapp.com/send?phone=5531983399692&text=Gostaria de saber sobre o plano GOLD do MyVendas"
+				href={`https://api.whatsapp.com/send?phone=5531983399692&text=Gostaria de saber sobre o plano GOLD do MyVendas. ${
+					slr ? `Código atendente: ${slr}` : ""
+				}`}
 				target="_blank"
 				className="mt-auto"
 			>
