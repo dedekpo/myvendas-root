@@ -79,12 +79,12 @@ function GoldPlan({ slr }: { slr: string }) {
 	return (
 		<div className="flex flex-col h-[500px] w-[350px] bg-white p-10 text-gray-900 rounded-md border-2 border-yellow-200">
 			<span className="text-xl block">Plano GOLD</span>
-			<span className="mt-5 text-5xl font-bold block">R$125,00</span>
-			<div className="flex gap-3 mt-2">
-				<span className="text-gray-500">por mês</span>
-				<div className="bg-green-800 px-2 rounded-lg">
+			<span className="mt-5 text-5xl font-bold block"></span>
+			<div className="flex gap-3">
+				<span className="text-gray-500 mb-14">Sob consulta</span>
+				{/* <div className="bg-green-800 px-2 rounded-lg">
 					<span className="text-gray-100">Somente plano anual</span>
-				</div>
+				</div> */}
 			</div>
 			<div className="relative flex py-5 items-center">
 				<div className="flex-grow border-t border-gray-300" />
