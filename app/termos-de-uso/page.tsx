@@ -13,7 +13,7 @@ export default function TermosDeUso() {
 				de Uso, junto de nossas Políticas de Privacidade, Constituem o
 				acordo legal realizado entre você e ANDRE ELIAS ANDRADE SILVA
 				13761278659 (“MyVendas”),inscrita no CNPJ sob o n.º
-				45.298.933/0001-45, endereço: Rua Cristália, n° 148, até
+				52.236.286/0001-02, endereço: Rua Cristália, n° 148, até
 				228/229, Santo Antônio, Betim, CEP 32.684-094., para utilização
 				e acesso ao site da ANDRE ELIAS ANDRADE SILVA 13761278659
 				(MyVendas), bem como a qualquer aplicação, produto ou serviço
