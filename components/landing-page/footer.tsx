@@ -13,7 +13,7 @@ export default function Footer() {
 				/>
 				<span className="text-center">
 					{
-						"Todos os direitos reservados 2022 – MyVendas – 45.298.933/0001-45"
+						"Todos os direitos reservados 2022 – MyVendas – 52.236.286/0001-02"
 					}
 				</span>
 				<span />
